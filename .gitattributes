@@ -1,3 +1,4 @@
+*.webp binary -delta
 *.jpg binary -delta
 *.png binary -delta
 *.jpeg binary -delta
