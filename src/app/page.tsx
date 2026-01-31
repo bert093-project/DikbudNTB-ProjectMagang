@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="bg-blue-600">
       <div className="flex justify-center items-center min-h-screen">
-        <div className="flex flex-col text-center justify-center xs:bg-cyan-500 sm:bg-green-600 md:bg-yellow-700 bg-white shadow-lg rounded w-[30vw] h-[90vh]">
+        <div className="flex flex-col text-center justify-center bg-white shadow-lg xs:w-[80vw] xs:h-[95vh] sm:w-[70vh] sm:h-[95vh] md:w-[30vw] md:h-[95vh] rounded w-[30vw] h-[95vh]">
           <div className="flex justify-center">
             <Image src={logo} alt="logo" width={200} height={200} />
           </div>
@@ -18,36 +18,32 @@ export default function Home() {
             <label className="pl-3">Username / Email</label>
             {/* INPUT KE 1 */}
             <div className="relative border-gray-500 border m-3">
-              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none bg-amber-50">
+              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <UserRound size={20} />
               </div>
               <input
                 type="text"
                 placeholder="Masukkan username atau email"
-                className="border border-slate-200 block w-full ps-9 pe-3 py-2.5 transition duration-300 focus:outline-none focus:border-slate-300 required"
+                className="border border-slate-200 block w-full ps-9 pe-3 py-2.5 transition duration-300 focus:outline-none"
               />
             </div>
             {/* INPUT KE 2 */}
             <label className="pl-3">Password</label>
             <div className="relative border-gray-500 border m-3">
-              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none bg-amber-50">
+              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <Lock size={20} />
               </div>
               <input
                 type="text"
                 placeholder="Masukkan password"
-                className="block w-full ps-9 pe-3 py-2.5 bg-amber-50 border focus:outline-none focus:shadow-sm focus:border-slate-300"
+                className="border border-slate-200 block w-full ps-9 pe-3 py-2.5 focus:outline-none focus:shadow-sm focus:border-slate-300"
               />
             </div>
           </div>
-          <div className="pt-5">
-            <button type="submit" className="bg-blue-600 w-60 h-10 text-white">
-              Login
-            </button>
-            <p className="font-light text-[14px] pt-3">
-              @2026 Pemerintah Provinsi Nusa Tenggara Barat
-            </p>
+          <div>
+            <button type="submit" className='bg-blue-600 w-60 h-10 text-white'>Login</button>
           </div>
+          <p className='font-light text-base pt-3'>@2026 Pemerintah Provinsi Nusa Tenggara Barat</p>
         </div>
       </div>
     </main>
