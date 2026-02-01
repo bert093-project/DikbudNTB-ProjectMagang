@@ -24,7 +24,7 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Masukkan username atau email"
-                className="border border-slate-200 block w-full ps-9 pe-3 py-2.5 transition duration-300 focus:outline-none"
+                className="border border-slate-200 block w-full ps-9 pe-3 py-2.5 transition duration-200 focus:outline-none focus:shadow-sm focus:border-slate-500"
               />
             </div>
             {/* INPUT KE 2 */}
@@ -36,12 +36,12 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Masukkan password"
-                className="border border-slate-200 block w-full ps-9 pe-3 py-2.5 focus:outline-none focus:shadow-sm focus:border-slate-300"
+                className="border border-slate-200 block w-full ps-9 pe-3 py-2.5 transition duration-200 focus:outline-none focus:shadow-sm focus:border-slate-500"
               />
             </div>
           </div>
           <div>
-            <button type="submit" className='bg-blue-600 w-60 h-10 text-white'>Login</button>
+            <button type="submit" className='bg-blue-600 w-60 h-10 text-white hover:bg-blue-500 hover:shadow-sm transition duration-200'>Login</button>
           </div>
           <p className='font-light text-base pt-3'>@2026 Pemerintah Provinsi Nusa Tenggara Barat</p>
         </div>
