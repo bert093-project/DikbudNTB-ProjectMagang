@@ -29,6 +29,8 @@ bun install
 3. Setup Supabase Environment Variable:
 
 ```
+buat file `.env.local` lalu isi seperti ini:
+
 NEXT_PUBLIC_SUPABASE_URL=SUPABASE_URL_ANDA
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY=SUPABASE_PUBLISHABLE_DEFAULT_KEY_ANDA
 ```
