@@ -2,11 +2,13 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import logo from "@/app/img/logo-dikpora.webp";
 
 import { UserRound, Lock } from "lucide-react";
 
 export default function Home() {
+  const router = useRouter();
   const [sekolah, setSekolah] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const [loading, setLoading] = useState(false);
@@ -45,8 +47,8 @@ export default function Home() {
           type: "success",
           text: json?.message ?? "Login berhasil",
         });
-        // contoh: redirect atau simpan token jika kamu menambahkan session
-        // router.push('/dashboard')
+
+        router.push("http://localhost:3000/pages/home");
       }
     } catch (err) {
       setMessage({ type: "error", text: "Terjadi kesalahan jaringan" });
