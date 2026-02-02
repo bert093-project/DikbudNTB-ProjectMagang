@@ -26,11 +26,22 @@ cd DikbudNTB-ProjectMagang
 bun install
 ```
 
-3. Jalankan development server:
+3. Setup Supabase Environment Variable:
+
+```
+NEXT_PUBLIC_SUPABASE_URL=SUPABASE_URL_ANDA
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY=SUPABASE_PUBLISHABLE_DEFAULT_KEY_ANDA
+```
+
+4. Jalankan development server:
 
 ```
 bun run dev
 ```
+
+> [!IMPORTANT]
+> Pastikan menggunakan branch `feat/auth-supabase` untuk saat ini.
+> Dengan cara: `git switch feat/auth-supabase`. Jika ingin melihat semua branch yang tersedia tinggal menggunakan `git branch -a`
 
 ## Tech Stack
 - Next.js
