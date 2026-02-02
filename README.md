@@ -60,3 +60,8 @@ dikbudntb-projectmagang
 ├─ README.md
 └─ tsconfig.json
 ```
+
+## Referensi
+- [Build a User Management App with Next.js](https://supabase.com/docs/guides/getting-started/tutorials/with-nextjs?queryGroups=database-method&database-method=dashboard)
+- [Building APIs with Next.js](https://nextjs.org/blog/building-apis-with-nextjs)
+- [Use Supabase with Next.js (including query database data from Next.js)](https://nextjs.org/blog/building-apis-with-nextjs)
