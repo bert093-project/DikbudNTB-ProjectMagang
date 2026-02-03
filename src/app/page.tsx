@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import logo from "@/app/img/logo-dikpora.webp";
 
-import { UserRound, Lock } from "lucide-react";
+import { UserRound, Lock, LogIn } from "lucide-react";
 
 export default function Home() {
   const router = useRouter();
@@ -59,7 +59,17 @@ export default function Home() {
 
   return (
     <main className="bg-blue-600">
+      <nav className='flex justify-end pr-10'>
+        <div className='bg-white rounded px-7 py-1 cursor-pointer'>
+          <div className='flex gap-2 pb-1'>
+            <LogIn/>
+            Login
+          </div>
+          <hr className='border border-r-80'/>
+        </div>
+      </nav>
       <div className="flex justify-center items-center min-h-screen">
+        <a href="/dasboard.tsx"></a>
         <form
           onSubmit={handleSubmit}
           className="flex flex-col text-center justify-center bg-white shadow-lg xs:w-[80vw] xs:h-[95vh] sm:w-[70vh] sm:h-[95vh] md:w-[30vw] md:h-[95vh] rounded w-[30vw] h-[95vh] p-6"
@@ -105,7 +115,7 @@ export default function Home() {
             <button
               type="submit"
               disabled={loading}
-              className="bg-blue-600 w-60 h-10 text-white hover:bg-blue-500 hover:shadow-sm transition duration-200 disabled:opacity-60"
+              className="bg-blue-600 w-60 h-10 text-white hover:bg-blue-500 hover:shadow-sm transition duration-200 disabled:opacity-60 cursor-pointer"
             >
               {loading ? "Memeriksa..." : "Login"}
             </button>
