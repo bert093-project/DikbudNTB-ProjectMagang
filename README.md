@@ -41,10 +41,6 @@ NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY=SUPABASE_PUBLISHABLE_DEFAULT_KEY_AN
 bun run dev
 ```
 
-> [!IMPORTANT]
-> Pastikan menggunakan branch `feat/auth-supabase` untuk saat ini.
-> Dengan cara: `git switch feat/auth-supabase`. Jika ingin melihat semua branch yang tersedia tinggal menggunakan `git branch -a`
-
 ## Tech Stack
 - Next.js
 - React.js
