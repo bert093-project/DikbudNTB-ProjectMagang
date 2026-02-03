@@ -11,7 +11,7 @@ Git (2.51.2 atau lebih baru)
 Bun (1.3.5 atau lebih baru)
 ```
 
-## Cara Menjalankan Sistem
+## Cara Menjalankan Project
 
 1. Clone Repo
 
