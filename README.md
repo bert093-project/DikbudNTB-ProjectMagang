@@ -78,15 +78,29 @@ using (
 ## Struktur Folder
 
 ```
-dikbudntb-projectmagang
+DikbudNTB-ProjectMagang
 ├─ src
-│  └─ app
-│     ├─ globals.css
-│     ├─ img
-│     │  └─ logo-dikpora.webp
-│     ├─ layout.tsx
-│     └─ page.tsx
+│  ├─ app
+│  │  ├─ api
+│  │  │  └─ login
+│  │  │     └─ route.ts
+│  │  ├─ fetch
+│  │  │  └─ page.tsx
+│  │  ├─ globals.css
+│  │  ├─ img
+│  │  │  └─ logo-dikpora.webp
+│  │  ├─ layout.tsx
+│  │  ├─ page.tsx
+│  │  └─ pages
+│  │     └─ home
+│  │        └─ page.tsx
+│  └─ lib
+│     ├─ supabaseAdmin.ts
+│     ├─ supabaseClient.ts
+│     └─ supabaseServer.ts
 ├─ bun.lock
+├─ chrome_3XvnhJSp6A.png
+├─ chrome_rsoZtHchZz.png
 ├─ eslint.config.mjs
 ├─ LICENSE
 ├─ next.config.ts
@@ -95,6 +109,3 @@ dikbudntb-projectmagang
 ├─ README.md
 └─ tsconfig.json
 ```
-
-## Todo
-- User tidak bisa menggunakan
