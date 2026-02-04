@@ -40,7 +40,8 @@ NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY=SUPABASE_PUBLISHABLE_DEFAULT_KEY_AN
 ```
 bun run dev
 ```
-> {!IMPORTANT}
+
+> [!IMPORTANT]
 > Pastikan sudah membuat RLS Security pada Database atau table anda sebelum menjalankan development server.
 
 <details>
