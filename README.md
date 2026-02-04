@@ -40,6 +40,30 @@ NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY=SUPABASE_PUBLISHABLE_DEFAULT_KEY_AN
 ```
 bun run dev
 ```
+> {!IMPORTANT}
+> Pastikan sudah membuat RLS Security pada Database atau table anda sebelum menjalankan development server.
+
+<details>
+<summary>Klik disini untuk lebih detailnya</summary>
+
+### 1. Buat RLS Policy terlebih dahulu
+![alt text](chrome_rsoZtHchZz.png)
+
+### 2. Pilih policy command **Select** dengan target roles all (default) 
+![alt text](chrome_3XvnhJSp6A.png)
+
+> {!NOTE}
+> Anda dapat copy-paste policy command dari gambar tersebut di bawah ini:
+```php
+alter policy "Enable read access for all users"
+on "public"."dikbud"
+to public
+using (
+    true
+);
+```
+
+</details>
 
 ## Tech Stack
 - Next.js
@@ -69,3 +93,6 @@ dikbudntb-projectmagang
 ├─ README.md
 └─ tsconfig.json
 ```
+
+## Todo
+- User tidak bisa menggunakan
