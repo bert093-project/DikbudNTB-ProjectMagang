@@ -53,8 +53,9 @@ bun run dev
 ### 2. Pilih policy command **Select** dengan target roles all (default) 
 ![alt text](chrome_3XvnhJSp6A.png)
 
-> {!NOTE}
+> [!NOTE]
 > Anda dapat copy-paste policy command dari gambar tersebut di bawah ini:
+
 ```php
 alter policy "Enable read access for all users"
 on "public"."dikbud"
