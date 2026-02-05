@@ -84,6 +84,14 @@ using (
 - Typescript
 - Bun (Runtime, Package Manager, Test Runner, Bundler, dsb)
 
+## Referensi
+- [Supabase column using filter](https://supabase.com/docs/reference/javascript/using-filters)
+- [Storing Password Securely With PostgreSQL and Pgrcrypto](https://medium.com/@alexishevia/storing-passwords-securely-with-postgresql-and-pgcrypto-87151a318998)
+- [Blowfish Algorithm Examples](https://www.geeksforgeeks.org/java/blowfish-algorithm-with-examples/)
+- [bcrypt.js. with Typescript support](https://www.npmjs.com/package/bcryptjs)
+- [jose for JSON Web Token (JWT)](https://www.npmjs.com/package/jose)
+- [TailwindCSS Responsive Design - custom Breakpoint prefix](https://tailwindcss.com/docs/responsive-design)
+- [middleware.ts is deprecated in Next.js 16](https://nextjs.org/blog/next-16)
 
 ## Struktur Folder
 
