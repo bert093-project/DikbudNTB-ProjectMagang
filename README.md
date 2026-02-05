@@ -26,7 +26,7 @@ cd DikbudNTB-ProjectMagang
 bun install
 ```
 
-3. Setup Supabase Environment Variable:
+3. Setup Supabase Environment Variable dan JWT Secret:
 
 ```
 buat file `.env.local` lalu isi seperti ini:
