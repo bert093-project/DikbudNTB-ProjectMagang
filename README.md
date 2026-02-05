@@ -2,6 +2,10 @@
 <h1>Project Magang</h1>
 </div>
 
+## Preview
+### Laptop (1366x768)
+![alt text](chrome_rv4uvTYsII.png) 
+
 ## Requirements
 
 Pastikan Anda telah menginstal hal-hal berikut pada sistem Anda:
