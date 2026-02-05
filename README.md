@@ -33,7 +33,15 @@ buat file `.env.local` lalu isi seperti ini:
 
 NEXT_PUBLIC_SUPABASE_URL=SUPABASE_URL_ANDA
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY=SUPABASE_PUBLISHABLE_DEFAULT_KEY_ANDA
+JWT_SECRET_B64=
+JWT_EXPIRES_IN=3600 (1jam/60menit)
 ```
+
+> [!NOTE]
+> Anda dapat membuat jwt secret dari website [randomkeygen.com](https://randomkeygen.com/jwt-secret)
+> Jika anda ingin lebih aman, anda dapat membuat jwt secret dengan **git bash**. Berikut ini contohnya:
+> ![alt text](jwtsecret.gif)
+> cara ini akan membuat jwt secret dengan hash algorithm `HS512 (512-bit)` dengan format `Base64`
 
 4. Jalankan development server:
 
